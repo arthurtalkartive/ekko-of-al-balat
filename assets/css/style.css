@@ -237,12 +237,13 @@ button:focus-visible {
 }
 
 .hero--desktop .hero__landscape {
-  right: -10%;
-  bottom: -6%;
+  right: -6vw;
+  bottom: -6vw;
   left: auto;
-  width: 75vw;
+  width: 110vw;
   height: auto;
   max-width: none;
+  aspect-ratio: 2880 / 1170;
 }
 
 .hero--desktop .brand-footer {
@@ -290,6 +291,7 @@ button:focus-visible {
   width: 220vw;
   height: auto;
   max-width: none;
+  aspect-ratio: 2880 / 1170;
   transform: translateX(-50%);
   z-index: 1;
 }
