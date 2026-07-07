@@ -226,18 +226,23 @@ button:focus-visible {
 .hero--desktop .hero__mockup {
   position: absolute;
   z-index: 1;
-  right: 2%;
-  top: calc(50% + 15px);
+  right: 3%;
+  top: 50%;
   transform: translateY(-50%);
-  width: min(50vw, 700px);
+  width: min(42vw, 620px);
+  max-width: none;
+  height: min(80vh, 780px);
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero--desktop .hero__landscape {
-  right: -55.5vw;
-  bottom: -14vw;
-  width: 126vw;
-  height: 54vw;
-  object-fit: cover;
+  right: -10%;
+  bottom: -6%;
+  left: auto;
+  width: 75vw;
+  height: auto;
+  max-width: none;
 }
 
 .hero--desktop .brand-footer {
@@ -282,9 +287,9 @@ button:focus-visible {
 .hero--mobile .hero__landscape {
   left: 50%;
   bottom: 0;
-  width: 340vw;
-  height: 145vw;
-  object-fit: cover;
+  width: 220vw;
+  height: auto;
+  max-width: none;
   transform: translateX(-50%);
   z-index: 1;
 }
